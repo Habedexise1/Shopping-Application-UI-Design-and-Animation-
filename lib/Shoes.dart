@@ -189,19 +189,21 @@ class _ShoesState extends State<Shoes> {
                             height: 60,
                           ),
                           FadeAnimation(
-                    1.5,Container(
-                            height: 50,
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(15),
-                            ),
-                            child: Center(
-                              child: Text(
-                                'Buy Now',
-                                style: TextStyle(fontWeight: FontWeight.bold),
+                            1.5,
+                            Container(
+                              height: 50,
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(15),
+                              ),
+                              child: Center(
+                                child: Text(
+                                  'Buy Now',
+                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                ),
                               ),
                             ),
-                          ),),
+                          ),
                           SizedBox(
                             height: 30,
                           ),
